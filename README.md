@@ -1,6 +1,6 @@
-# 🌍 Streamify — Language Exchange & Real-time Communication Platform
+# 🌍 TalkBridge — Language Exchange & Real-time Communication Platform
 
-Streamify is a full-stack real-time messaging and video call platform built for language exchange enthusiasts. Packed with modern features and a clean UI, it's scalable, customizable, and production-ready.
+TalkBridge is a full-stack real-time messaging and video call platform built for language exchange enthusiasts. Packed with modern features and a clean UI, it's scalable, customizable, and production-ready.
 
 ---
 
@@ -34,18 +34,12 @@ JWT_SECRET_KEY=your_jwt_secret
 NODE_ENV=development
 
 
-💻 Getting Started
 ▶️ Run the Backend
-bash
-Copy
-Edit
 cd backend
 npm install
 npm run dev
+
 ▶️ Run the Frontend
-bash
-Copy
-Edit
 cd frontend/streamify
 npm install
 npm run dev
