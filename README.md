@@ -1,54 +1,51 @@
-Highlights:
+# 🌍 Streamify — Language Exchange & Real-time Communication Platform
 
-🌐 Real-time Messaging with Typing Indicators & Reactions
-📹 1-on-1 and Group Video Calls with Screen Sharing & Recording
-🔐 JWT Authentication & Protected Routes
-🌍 Language Exchange Platform with 32 Unique UI Themes
-⚡ Tech Stack: React + Express + MongoDB + TailwindCSS + TanStack Query
-🧠 Global State Management with Zustand
-🚨 Error Handling (Frontend & Backend)
-🚀 Free Deployment
-🎯 Built with Scalable Technologies like Stream
-⏳ And much more!
+Streamify is a full-stack real-time messaging and video call platform built for language exchange enthusiasts. Packed with modern features and a clean UI, it's scalable, customizable, and production-ready.
 
-🧪 .env Setup
-Backend (/backend)
+---
+
+## 🚀 Highlights
+
+- 🌐 **Real-time Messaging** with Typing Indicators, Reactions, and Presence
+- 📹 **1-on-1 and Group Video Calls** with Screen Sharing & Recording
+- 🔐 **JWT Authentication** & Protected Routes
+- 🎨 **32 Unique UI Themes** for a Personalized Experience
+- 🧠 **Global State Management** with Zustand
+- ⚡ **Tech Stack**: React + Express + MongoDB + TailwindCSS + TanStack Query
+- 🧪 **Full Error Handling** on Frontend & Backend
+- 🎯 Built with Scalable Technologies like [Stream](https://getstream.io)
+- 🚀 **Free Deployment Ready**
+- ⏳ And much more!
+
+---
+
+## 🧪 Environment Setup
+
+### 🔧 Backend (`/backend`)
+
+Create a `.env` file in the `/backend` folder with the following variables:
+
+```env
 PORT=5001
 MONGO_URI=your_mongo_uri
 STEAM_API_KEY=your_steam_api_key
 STEAM_API_SECRET=your_steam_api_secret
 JWT_SECRET_KEY=your_jwt_secret
 NODE_ENV=development
-Frontend (/frontend)
-VITE_STREAM_API_KEY=your_stream_api_key
-🔧 Run the Backend
+
+
+💻 Getting Started
+▶️ Run the Backend
+bash
+Copy
+Edit
 cd backend
 npm install
 npm run dev
-💻 Run the Frontend
-cd frontend
+▶️ Run the Frontend
+bash
+Copy
+Edit
+cd frontend/streamify
 npm install
 npm run dev
-About
-No description, website, or topics provided.
-Resources
- Readme
- Activity
-Stars
- 248 stars
-Watchers
- 2 watching
-Forks
- 40 forks
-Report repository
-Releases
-No releases published
-Packages
-No packages published
-Languages
-JavaScript
-98.7%
- 
-Other
-1.3%
-Footer
